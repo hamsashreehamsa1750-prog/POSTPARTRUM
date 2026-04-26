@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Status | ARYA Postpartum Care</title>
+  <link rel="stylesheet" href="../CSS/status.css">
+</head>
+<body>
+
+<div class="status-container">
+
+  <img id="statusIcon" src="" alt="Payment Status">
+
+  <h1 id="statusTitle"></h1>
+  <p id="statusMessage"></p>
+
+  <div class="details-box">
+    <p><strong>Service:</strong> <span id="serviceName"></span></p>
+    <p><strong>Amount Paid:</strong> ₹<span id="amountPaid"></span></p>
+    <p><strong>Transaction ID:</strong> <span id="transactionId"></span></p>
+    <p><strong>Status:</strong> <span id="paymentStatus"></span></p>
+  </div>
+
+  <button onclick="goNext()">
+      <a href="../index/dashboard1.html" class="back-btn">continue</a>
+</button>
+
+</div>
+
+<script src="../JAVA/status.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Service | ARYA Postpartum Care</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="../CSS/booking.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <h2>Book a Service</h2>
+    <a href="../index/dashboard1.html" class="back-btn">
+      <i class="fa-solid fa-arrow-left"></i> Dashboard
+    </a>
+  </header>
+
+  <main class="booking-container">
+    <div class="booking-card">
+      <h3>Postpartum Care Booking</h3>
+
+      <form id="bookingForm">
+        <div class="field">
+          <label>Service Type</label>
+          <select id="service" required>
+            <option value="">Select Service</option>
+            <option value="Mother Care">Mother Care</option>
+            <option value="Newborn Care">Newborn Care</option>
+            <option value="Complete Postpartum Care">Complete Postpartum Care</option>
+          </select>
+        </div>
+<
+        <div class="field">
+          <label>Package</label>
+          <select id="package" required>
+            <option value="">Select Package</option>
+            <option value="7 Days Basic">7 Days – Basic</option>
+            <option value="15 Days Premium">15 Days – Premium</option>
+            <option value="30 Days Complete">30 Days – Complete</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Preferred Start Date</label>
+          <input type="date" id="date" required />
+        </div>
+
+        <button type="submit" class="btn-primary">
+          <i class="fa-solid fa-calendar-check"></i> 
+          <div class="cta">
+    <a href="../index/ampay.html">Payment Proceed </a>
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <script src="../JAVA/booking.js"></script>
+</body>
+</html>

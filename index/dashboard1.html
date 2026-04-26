@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard | ARYA Postpartum</title>
+  <link rel="stylesheet" href="../CSS/dashboard1.css">
+  <link rel="icon" href="../image/logo dash.png">
+</head>
+<body>
+
+<header class="dashboard-header">
+  <h1>ARYA Postpartum Care Center</h1>
+  <button id="logoutBtn">Logout</button>
+</header>
+
+<section class="welcome-section">
+  <h2 id="welcomeUser"></h2>
+  <p>Your personalized care dashboard</p>
+</section>
+
+<section class="dashboard-cards">
+
+  <div class="card" onclick="navigate('../routine/routine.html')">
+    <img src="../image/routine.jpg">
+    <button>
+     <a href="../index/routine.html">Daily Routine</a></button>
+    <p>Food, water, sleep & voice reminders</p>
+  </div>
+
+  <div class="card" onclick="navigate('../booking/booking.html')">
+    <img src="../image/booking.png">
+    <button>
+    <a href="../index/booking.html">Book Service</a></button>
+        <p>Select postpartum care plans</p>
+  </div>
+
+  <div class="card" onclick="navigate('../payment/payment.html')">
+    <img src="../image/payment.png">
+    <button>
+     <a href="../index/payment.html">Payment Status</a></button>
+        <p>View & complete payments</p>
+  </div>
+
+</section>
+
+<script src="../JAVA/dashboard1.js"></script>
+</body>
+</html>
